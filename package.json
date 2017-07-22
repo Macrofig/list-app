@@ -1,7 +1,7 @@
 {
   "name": "list-app",
   "description": "Create lists",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "",
   "main": "src",
   "keywords": [
@@ -18,8 +18,8 @@
     "test": "test/"
   },
   "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 8.0.0",
+    "npm": ">= 5.0.0"
   },
   "scripts": {
     "test": "npm run eslint && npm run mocha",

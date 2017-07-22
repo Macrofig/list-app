@@ -1,8 +1,8 @@
 // line-form.vue
 <template>
   <div class="app">
-    <input type="text" >
-    <app-lists :list="list" />
+    <app-lists :lists="lists" />
+    <app-lines :lines="lines" />
   </div>
 </template>
 
@@ -10,7 +10,10 @@
 export default {
   name: 'list-app',
   data() {
-    return {list: ['test', 'test1', 'test2']}
+    return {
+      lists: ['list a'],
+      lines: ['line 1']
+    }
   }
 }
 </script>
